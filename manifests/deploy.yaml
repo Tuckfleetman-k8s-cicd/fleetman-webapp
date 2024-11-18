@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: 590183937685.dkr.ecr.us-east-1.amazonaws.com/fleetman-webapp:193
+        image: 590183937685.dkr.ecr.us-east-1.amazonaws.com/fleetman-webapp:194
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: production-microservice
