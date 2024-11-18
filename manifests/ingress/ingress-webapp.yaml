@@ -9,7 +9,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: fleetman.yanisdevsecops.com #k8s-default-mainlb-a9c4ff3c6d-2010138050.us-east-1.elb.amazonaws.com #
+    - host: k8s-default-mainlb-a9c4ff3c6d-2010138050.us-east-1.elb.amazonaws.com #fleetman.yanisdevsecops.com #
       http:
         paths:
           - path: /
